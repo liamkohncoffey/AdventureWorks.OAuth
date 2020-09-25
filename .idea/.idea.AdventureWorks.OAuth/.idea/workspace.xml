@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f330dd8b-3932-49f9-990f-4fa72849cb19" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Source/AdventureWorks.OAuth/Configuration/InMemoryConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventureWorks.OAuth/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventureWorks.OAuth/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AdventureWorks.OAuth/AdventureWorks.OAuth.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AdventureWorks.OAuth/AdventureWorks.OAuth.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AdventureWorks.OAuth/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AdventureWorks.OAuth/Startup.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Source/AdventureWorks.OAuth/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/AdventureWorks.OAuth/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/AdventureWorks.OAuth/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/AdventureWorks.OAuth/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/AdventureWorks.OAuth/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/AdventureWorks.OAuth/Configuration/InMemoryConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5AED14D4-8F76-4E4F-80EB-584643057B28/1D8/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Source/WindCave.Api/Startup.cs" />
+        <option value="$PROJECT_DIR$/Source/AdventureWorks.OAuth.Api/Startup.cs" />
+        <option value="$PROJECT_DIR$/Source/WebApplication/Startup.cs" />
+        <option value="$PROJECT_DIR$/Source/WebApplication/Properties/launchSettings.json" />
+        <option value="$PROJECT_DIR$/Source/WebApplication/Program.cs" />
+        <option value="$PROJECT_DIR$/Source/AdventureWorks.OAuth/Configuration/InMemoryConfiguration.cs" />
+        <option value="$PROJECT_DIR$/Source/AdventureWorks.OAuth/Startup.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1i0LF9n5UBfVAH6YxkOcks4vbwD" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3500612" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.2998776" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="AdventureWorks.OAuth.Api" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Source/AdventureWorks.OAuth/bin/Debug/netcoreapp3.1/AdventureWorks.OAuth.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Source/AdventureWorks.OAuth" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Source/AdventureWorks.OAuth/AdventureWorks.OAuth.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.1" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f330dd8b-3932-49f9-990f-4fa72849cb19" name="Default Changelist" comment="" />
+      <created>1601039457150</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601039457150</updated>
+      <workItem from="1601039461174" duration="730000" />
+      <workItem from="1601040231623" duration="323000" />
+      <workItem from="1601040558940" duration="943000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="955" y="210" key="#AdventureWorks.OAuth.Api" timestamp="1601040107083">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="955" y="210" key="#AdventureWorks.OAuth.Api/0.0.1792.1120@0.0.1792.1120" timestamp="1601040107083" />
+    <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601039727039">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1601039727039" />
+    <state width="848" height="419" key="GridCell.Tab.0.bottom" timestamp="1601040554548">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="848" height="419" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1601040554548" />
+    <state width="848" height="419" key="GridCell.Tab.0.center" timestamp="1601040554548">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="848" height="419" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1601040554548" />
+    <state width="848" height="419" key="GridCell.Tab.0.left" timestamp="1601040554547">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="848" height="419" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1601040554547" />
+    <state width="848" height="419" key="GridCell.Tab.0.right" timestamp="1601040554548">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="848" height="419" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1601040554548" />
+    <state width="848" height="419" key="GridCell.Tab.1.bottom" timestamp="1601040554550">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="848" height="419" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1601040554550" />
+    <state width="848" height="419" key="GridCell.Tab.1.center" timestamp="1601040554549">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="848" height="419" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1601040554549" />
+    <state width="848" height="419" key="GridCell.Tab.1.left" timestamp="1601040554549">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="848" height="419" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1601040554549" />
+    <state width="848" height="419" key="GridCell.Tab.1.right" timestamp="1601040554549">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="848" height="419" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1601040554549" />
+    <state width="848" height="419" key="GridCell.Tab.2.bottom" timestamp="1601040554553">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="848" height="419" key="GridCell.Tab.2.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1601040554553" />
+    <state width="848" height="419" key="GridCell.Tab.2.center" timestamp="1601040554552">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="848" height="419" key="GridCell.Tab.2.center/0.0.1792.1120@0.0.1792.1120" timestamp="1601040554552" />
+    <state width="848" height="419" key="GridCell.Tab.2.left" timestamp="1601040554552">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="848" height="419" key="GridCell.Tab.2.left/0.0.1792.1120@0.0.1792.1120" timestamp="1601040554552" />
+    <state width="848" height="419" key="GridCell.Tab.2.right" timestamp="1601040554553">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="848" height="419" key="GridCell.Tab.2.right/0.0.1792.1120@0.0.1792.1120" timestamp="1601040554553" />
+    <state width="848" height="419" key="GridCell.Tab.3.bottom" timestamp="1601040554554">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="848" height="419" key="GridCell.Tab.3.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1601040554554" />
+    <state width="848" height="419" key="GridCell.Tab.3.center" timestamp="1601040554554">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="848" height="419" key="GridCell.Tab.3.center/0.0.1792.1120@0.0.1792.1120" timestamp="1601040554554" />
+    <state width="848" height="419" key="GridCell.Tab.3.left" timestamp="1601040554553">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="848" height="419" key="GridCell.Tab.3.left/0.0.1792.1120@0.0.1792.1120" timestamp="1601040554553" />
+    <state width="848" height="419" key="GridCell.Tab.3.right" timestamp="1601040554554">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="848" height="419" key="GridCell.Tab.3.right/0.0.1792.1120@0.0.1792.1120" timestamp="1601040554554" />
+    <state width="848" height="419" key="GridCell.Tab.4.bottom" timestamp="1601040554555">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="848" height="419" key="GridCell.Tab.4.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1601040554555" />
+    <state width="848" height="419" key="GridCell.Tab.4.center" timestamp="1601040554555">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="848" height="419" key="GridCell.Tab.4.center/0.0.1792.1120@0.0.1792.1120" timestamp="1601040554555" />
+    <state width="848" height="419" key="GridCell.Tab.4.left" timestamp="1601040554555">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="848" height="419" key="GridCell.Tab.4.left/0.0.1792.1120@0.0.1792.1120" timestamp="1601040554555" />
+    <state width="848" height="419" key="GridCell.Tab.4.right" timestamp="1601040554555">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="848" height="419" key="GridCell.Tab.4.right/0.0.1792.1120@0.0.1792.1120" timestamp="1601040554555" />
+    <state x="496" y="299" key="Rider.ProjectTemplateDialog.Size" timestamp="1601039887779">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="496" y="299" key="Rider.ProjectTemplateDialog.Size/0.0.1792.1120@0.0.1792.1120" timestamp="1601039887779" />
+  </component>
+</project>
