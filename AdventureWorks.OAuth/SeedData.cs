@@ -5,14 +5,14 @@
 using System;
 using System.Linq;
 using System.Security.Claims;
+using AdventureWorks.OAuth.Data;
+using AdventureWorks.OAuth.Models;
 using IdentityModel;
-using IdentityServerAspNetIdentity.Data;
-using IdentityServerAspNetIdentity.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace IdentityServerAspNetIdentity
+namespace AdventureWorks.OAuth
 {
     public class SeedData
     {

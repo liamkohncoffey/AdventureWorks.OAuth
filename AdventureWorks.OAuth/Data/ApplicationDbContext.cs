@@ -1,8 +1,8 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using AdventureWorks.OAuth.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using IdentityServerAspNetIdentity.Models;
 
-namespace IdentityServerAspNetIdentity.Data
+namespace AdventureWorks.OAuth.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {

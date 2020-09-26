@@ -1,4 +1,4 @@
-namespace IdentityServerAspNetIdentity.Configuration
+namespace AdventureWorks.OAuth.Configuration
 {
     public class ConnectionStrings
     {

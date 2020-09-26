@@ -2,18 +2,18 @@
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 
-using IdentityServerAspNetIdentity.Data;
-using IdentityServerAspNetIdentity.Models;
+using System;
+using AdventureWorks.OAuth.Configuration;
+using AdventureWorks.OAuth.Data;
+using AdventureWorks.OAuth.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using IdentityServerAspNetIdentity.Configuration;
 
-namespace IdentityServerAspNetIdentity
+namespace AdventureWorks.OAuth
 {
     public class Startup
     {
