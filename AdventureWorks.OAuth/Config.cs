@@ -4,6 +4,7 @@
 
 using IdentityServer4.Models;
 using System.Collections.Generic;
+using System.Security.Claims;
 using IdentityServer4;
 
 namespace IdentityServer
@@ -15,7 +16,7 @@ namespace IdentityServer
             return new IdentityResource[]
             {
                 new IdentityResources.OpenId(),
-                new IdentityResources.Profile(), 
+                new IdentityResources.Profile()
             };
         }
 
@@ -45,7 +46,12 @@ namespace IdentityServer
                 {
                     ClientId = "mvc",
                     ClientSecrets = { new Secret("secret".Sha256()) },
-
+                    Claims = new List<Claim>
+                    {
+                        new Claim("Name", "Liam"),
+                        
+                        new Claim("Name", "Coffey")
+                    },
                     AllowedGrantTypes = GrantTypes.Code,
 
                     // where to redirect to after login
@@ -53,7 +59,7 @@ namespace IdentityServer
 
                     // where to redirect to after logout
                     PostLogoutRedirectUris = { "http://localhost:5005/signout-callback-oidc" },
-
+                    AllowOfflineAccess = true,
                     AllowedScopes = new List<string>
                     {
                         IdentityServerConstants.StandardScopes.OpenId,
