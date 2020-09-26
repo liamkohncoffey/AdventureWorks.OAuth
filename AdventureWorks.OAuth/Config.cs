@@ -1,8 +1,4 @@
-﻿// Copyright (c) Brock Allen & Dominick Baier. All rights reserved.
-// Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
-
-
-using IdentityServer4.Models;
+﻿using IdentityServer4.Models;
 using System.Collections.Generic;
 using System.Security.Claims;
 using IdentityServer4;
@@ -24,7 +20,7 @@ namespace IdentityServer
         {
             return new ApiResource[]
             {
-                new ApiResource("AdventureWorks.OAuth", "Adventure Works OAuth"), 
+                new ApiResource("AdventureWorks.OAuth", "Adventure Works OAuth")
             };
         }
 
@@ -56,14 +52,15 @@ namespace IdentityServer
 
                     // where to redirect to after login
                     RedirectUris = { "http://localhost:5005/signin-oidc" },
-
+                    
                     // where to redirect to after logout
                     PostLogoutRedirectUris = { "http://localhost:5005/signout-callback-oidc" },
                     AllowOfflineAccess = true,
                     AllowedScopes = new List<string>
                     {
                         IdentityServerConstants.StandardScopes.OpenId,
-                        IdentityServerConstants.StandardScopes.Profile
+                        IdentityServerConstants.StandardScopes.Profile,
+                        "AdventureWorks.OAuth"
                     }
                 }
             };
