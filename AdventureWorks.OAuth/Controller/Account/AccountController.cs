@@ -1,8 +1,4 @@
-﻿// Copyright (c) Brock Allen & Dominick Baier. All rights reserved.
-// Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
-
-
-using System;
+﻿using System;
 using System.Linq;
 using System.Threading.Tasks;
 using AdventureWorks.OAuth.Models;
@@ -107,6 +103,7 @@ namespace AdventureWorks.OAuth.Controller.Account
                 if (result.Succeeded)
                 {
                     var user = await _userManager.FindByNameAsync(model.Username);
+                    
                     await _events.RaiseAsync(new UserLoginSuccessEvent(user.UserName, user.Id, user.UserName, clientId: context?.ClientId));
 
                     if (context != null)
