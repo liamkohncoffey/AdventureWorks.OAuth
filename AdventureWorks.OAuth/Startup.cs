@@ -3,9 +3,12 @@
 
 
 using System;
+using System.Security.Claims;
 using AdventureWorks.OAuth.Configuration;
 using AdventureWorks.OAuth.Data;
 using AdventureWorks.OAuth.Models;
+using IdentityServer4;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
@@ -37,15 +40,8 @@ namespace AdventureWorks.OAuth
                 .AddDefaultTokenProviders();
 
             services.AddMvc().SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_2_1);
-            
-           
-          //  services.Configure<IISOptions>(iis =>
-          //  {
-          //      iis.AuthenticationDisplayName = "Windows";
-          //      iis.AutomaticAuthentication = false;
-          //  });
 
-          var builder = services.AddIdentityServer()
+            var builder = services.AddIdentityServer()
               .AddConfigurationStore(options =>
               {
                   options.ConfigureDbContext = b => b.UseSqlServer(connectionString.IdentityConnectionString);
@@ -68,11 +64,19 @@ namespace AdventureWorks.OAuth
             services.AddAuthentication()
                  .AddGoogle(options =>
                  {
-                     // register your IdentityServer with Google at https://console.developers.google.com
-                     // enable the Google+ API
-                     // set the redirect URI to http://localhost:5000/signin-google
-                     options.ClientId = "copy client ID from Google here";
-                     options.ClientSecret = "copy client secret from Google here";
+                     //options.SignInScheme = IdentityServerConstants.ExternalCookieAuthenticationScheme;
+                     //options.ClientId = "244245730187-2t04d5ifu1r0lede8vc7nop6coft6v39.apps.googleusercontent.com";
+                     //options.ClientSecret = "5MQsMIbqM9CGAxDtkTdAs_rx";
+                     options.ClientId = "244245730187-2t04d5ifu1r0lede8vc7nop6coft6v39.apps.googleusercontent.com";
+                     options.ClientSecret = "5MQsMIbqM9CGAxDtkTdAs_rx";
+                     options.UserInformationEndpoint = "https://www.googleapis.com/oauth2/v2/userinfo";
+                     options.ClaimActions.Clear();
+                     options.ClaimActions.MapJsonKey(ClaimTypes.NameIdentifier, "id");
+                     options.ClaimActions.MapJsonKey(ClaimTypes.Name, "name");
+                     options.ClaimActions.MapJsonKey(ClaimTypes.GivenName, "given_name");
+                     options.ClaimActions.MapJsonKey(ClaimTypes.Surname, "family_name");
+                     options.ClaimActions.MapJsonKey("urn:google:profile", "link");
+                     options.ClaimActions.MapJsonKey(ClaimTypes.Email, "email");
                  });
         }
 
